@@ -1,0 +1,122 @@
+html {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Kavivanar', cursive; 
+  font-weight: normal;
+}
+
+.wrapper {
+  font-family: 'Kavivanar', cursive;
+  width: 80%; 
+  margin: 0 auto;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 3rem 0;
+}
+
+header {
+  display: flex; 
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+.leftheader {
+  flex-basis: 25%;
+  text-align: right;
+  padding: 0.5rem;
+}
+.rightheader h1 {
+  margin: 0;
+  color: green;
+  font-size: 3rem;
+}
+
+.rightheader {
+  flex-basis: 75%;
+  margin-top: 3.75rem;
+  padding-left: -0.5rem;
+}
+
+nav {
+  border-top: 1px solid green;
+  border-bottom: 1px solid green;
+}
+
+nav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+nav li{
+  display: inline-block;
+  font-style: none;
+  font-size: 1.5rem;
+  padding: 1rem;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: rgb(120, 213, 101);
+}
+
+article {
+  margin: 2rem 0;
+  background-color: rgb(255, 255, 245);
+  border-radius: 1rem;
+}
+article img {
+  float: left; 
+  margin: 0 1rem 1rem 0;
+  border-radius: 1rem;
+  width: 15rem;
+}
+
+article:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  border-top: 1px solid green;
+
+
+}
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+
+footer li {
+  display: inline-block;
+  margin: 0 10px 0 10px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+
+}
+.copyright {
+  color: lightgrey;
+  margin: 5rem 0;
+}
+.contactme {
+  font-size: 2rem;
+}
+
+.instagram, .facebook, .twitter {
+  width: 40px;
+} 
